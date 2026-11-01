@@ -1,0 +1,13 @@
+{
+  "name": "1",
+  "templateId": "react_native_expo",
+  "devServerCommand": "BROWSER=none NODE_OPTIONS=--dns-result-order=ipv4first npx expo start --web --host lan",
+  "scripts": {
+    "dev": "BROWSER=none NODE_OPTIONS=--dns-result-order=ipv4first npx expo start --web --host lan"
+  },
+  "agent": {
+    "profile": "heavy",
+    "planApproval": true,
+    "askUser": true
+  }
+}

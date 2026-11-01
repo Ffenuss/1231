@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Lifeiflive",
+    "slug": "lifeiflive",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#070b16",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070b16"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lifebiz.game"
+    },
+    "android": {
+      "package": "com.lifebiz.game",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#070b16",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-audio",
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2d6e9287-254f-422b-8eb4-207668d7e257"
+      }
+    }
+  }
+}
