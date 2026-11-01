@@ -34,6 +34,7 @@
     "plugins": [
       "expo-audio",
       "expo-asset",
+      "expo-gl",
       [
         "expo-build-properties",
         {
